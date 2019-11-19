@@ -1,15 +1,23 @@
+/* Text Color Variables */
+:root {
+	--background: #292939;
+	--error: #F2F2E6;
+	--line: #ED6767;
+	--text: #793F5C;
+}
+
 /* Background Color */
 body {
-	background-color: #292939;
+	background-color: var(--background);
 }
 
 /* just the text */
 .error {
+	color: var(--error);
 	text-align: center;
 	font-size: 150px;
 	font-family: Futura;
 	margin: auto;
-	color: #F2F2E6;
 	position: relative;
 }
 
@@ -24,9 +32,9 @@ body {
 
 /* Line styling */
 .line {
+	background-color: var(--line);
 	width: 100%;
 	height: 5px;
-	background-color: #ED6767;
 	border-style: none;
 	top: 50%;
 	margin: auto;
@@ -34,7 +42,7 @@ body {
 
 /* Styling for first line */
 .text {
-	color: #793F5C;
+	color: var(--text);
 	font-size: 20px;
 	font-family: Futura;
 }
@@ -46,7 +54,7 @@ h3 {
 
 /* Style of link line */
 .link {
-	color: #793F5C;
+	color: var(--text);
 	font-size: 20px;
 	font-family: Futura;
 	text-align: center;

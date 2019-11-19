@@ -1,13 +1,17 @@
+/* Color Variables*/
 :root {
 	--background: #B70D00;
 	--Spagnolia: #FFFFFF;
 	--Line-Hover-Footer: #CC9901;
 	--Buttons: #005C01;
 }
+
+/*Background Color*/
 body {
 	background-color: var(--background);
 }
 
+/*Spagnolia Title Color*/
 .spag {
 	color: var(--Spagnolia);
 	font-size: 2em;
@@ -19,6 +23,7 @@ body {
 	text-decoration: none;
 }
 
+/*Line Color*/
 .line {
 	width: 25%;
 	height: 5px;
@@ -26,9 +31,9 @@ body {
 	border-style: none;
 	margin-top: 40px;
 	margin: auto;
-
 }
 
+/*Button Color*/
 .button {
 	background-color: var(--Buttons);	
 	border: none;
@@ -39,19 +44,21 @@ body {
 	border-radius: 4px;
 	font-family: Futura;
 	margin: 30px 40px;
-
 }
+
+/*Hovering Button Color*/
 .button:hover {
     background-color: var(--Line-Hover-Footer); 
     color: white;
 }
 
-
+/*Button Position*/
 #button {
 	text-align: center;
 	margin-top: 60px;
 }
 
+/*Footer Postiion*/
 #footer {
 	position: absolute;
 	bottom: 0;
@@ -61,4 +68,4 @@ body {
 	color: var(--Line-Hover-Footer);
 	font-family: Futura;
 	text-transform: uppercase
-}
+} 
