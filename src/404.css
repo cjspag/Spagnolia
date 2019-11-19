@@ -1,0 +1,54 @@
+/* Background Color */
+body {
+	background-color: #292939;
+}
+
+/* just the text */
+.error {
+	text-align: center;
+	font-size: 150px;
+	font-family: Futura;
+	margin: auto;
+	color: #F2F2E6;
+	position: relative;
+}
+
+/* Centering 404 text */
+.container {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+ 	transform: translate(-50%,-50%);
+}
+
+/* Line styling */
+.line {
+	width: 100%;
+	height: 5px;
+	background-color: #ED6767;
+	border-style: none;
+	top: 50%;
+	margin: auto;
+}
+
+/* Styling for first line */
+.text {
+	color: #793F5C;
+	font-size: 20px;
+	font-family: Futura;
+}
+
+/* Centers the link text */
+h3 {
+	text-align: center;
+}
+
+/* Style of link line */
+.link {
+	color: #793F5C;
+	font-size: 20px;
+	font-family: Futura;
+	text-align: center;
+	text-decoration: none; 
+}

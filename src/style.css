@@ -1,0 +1,64 @@
+:root {
+	--background: #B70D00;
+	--Spagnolia: #FFFFFF;
+	--Line-Hover-Footer: #CC9901;
+	--Buttons: #005C01;
+}
+body {
+	background-color: var(--background);
+}
+
+.spag {
+	color: var(--Spagnolia);
+	font-size: 2em;
+	padding-top: 150px;
+	width: 100%;
+	font-size: 60px;
+	font-family: Futura;
+	text-align: center;
+	text-decoration: none;
+}
+
+.line {
+	width: 25%;
+	height: 5px;
+	background-color: var(--Line-Hover-Footer);
+	border-style: none;
+	margin-top: 40px;
+	margin: auto;
+
+}
+
+.button {
+	background-color: var(--Buttons);	
+	border: none;
+	color: white;
+	padding: 12px 32px;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 4px;
+	font-family: Futura;
+	margin: 30px 40px;
+
+}
+.button:hover {
+    background-color: var(--Line-Hover-Footer); 
+    color: white;
+}
+
+
+#button {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: var(--Line-Hover-Footer);
+	font-family: Futura;
+	text-transform: uppercase
+}
