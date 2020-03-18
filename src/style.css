@@ -1,29 +1,25 @@
-/* Color Variables*/
 :root {
-	--background: #B70D00;
+	--background: #13326D;
 	--Spagnolia: #FFFFFF;
-	--Line-Hover-Footer: #CC9901;
-	--Buttons: #005C01;
+	--Line-Hover-Footer: #60E0EB;
+	--Buttons: #E2F0F1;
 }
 
-/*Background Color*/
 body {
 	background-color: var(--background);
 }
 
-/*Spagnolia Title Color*/
 .spag {
 	color: var(--Spagnolia);
 	font-size: 2em;
 	padding-top: 150px;
 	width: 100%;
 	font-size: 60px;
-	font-family: Futura;
+	font-family: 'Ubuntu', Futura;
 	text-align: center;
 	text-decoration: none;
 }
 
-/*Line Color*/
 .line {
 	width: 25%;
 	height: 5px;
@@ -31,34 +27,32 @@ body {
 	border-style: none;
 	margin-top: 40px;
 	margin: auto;
+
 }
 
-/*Button Color*/
 .button {
 	background-color: var(--Buttons);	
 	border: none;
-	color: white;
+	color: black;
 	padding: 12px 32px;
 	text-decoration: none;
 	font-size: 16px;
 	border-radius: 4px;
-	font-family: Futura;
+	font-family: 'Ubuntu', Futura;
 	margin: 30px 40px;
-}
 
-/*Hovering Button Color*/
+}
 .button:hover {
     background-color: var(--Line-Hover-Footer); 
     color: white;
 }
 
-/*Button Position*/
+
 #button {
 	text-align: center;
 	margin-top: 60px;
 }
 
-/*Footer Postiion*/
 #footer {
 	position: absolute;
 	bottom: 0;
@@ -66,6 +60,6 @@ body {
 	width: 100%;
 	text-align: center;
 	color: var(--Line-Hover-Footer);
-	font-family: Futura;
+	font-family: 'Ubuntu', Futura;
 	text-transform: uppercase
-} 
+}

@@ -1,0 +1,83 @@
+:root {
+    --primary: #043353;
+    --accent1: #18A4E0;
+    --accent2: #FAF8F0;
+    --accent3: #D3DDE6;
+}
+
+body {
+    background-color: var(--primary);
+}
+.site-wrapper {
+    padding-top: 200px;
+    text-align: center;
+}
+.box {
+    background-color: var(--accent3);
+    width: 40%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+}
+.box:hover {
+    transform: scale(1.1);
+}
+
+.spag {
+    color: var(--accent1);
+    text-align: center;
+    font-family: Ubuntu, Futura, serif;
+    font-size: 70px;
+    width: 100%
+}
+.button {
+    background-color: var(--accent2);
+	border: none;
+	color: black;
+	padding: 12px 32px;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 5px;
+	font-family: Ubuntu, Futura, serif;
+	margin: 5% 5%;
+}
+.button:hover{
+    background-color: var(--accent1);
+    color: white;
+}
+#button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer {
+    color: var(--accent2);
+    text-align: center;
+    font-weight: bold;
+    font-family: Ubuntu, Futura, serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+@viewport {
+    width: auto;
+    zoom: 1.0;
+}
+
+@media screen and (max-width: 800px) {
+    .spag {
+        font-size: 60px;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .button {
+        margin: 7% 5%;
+        padding: 10px 20px;
+    }
+}

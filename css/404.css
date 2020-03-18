@@ -1,0 +1,44 @@
+body {
+    background-color: #FFFFFF;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}.error {
+    font-family: aileronsregular, Futura, serif;
+    text-align: center;
+    color: #FECE2F;
+}
+
+.error-image {
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%
+}
+
+.footer-text {
+    text-align: center;
+    font-family: aileronsregular, Futura, serif;
+    color: #FECE2F
+}
+
+@font-face {
+    font-family: 'aileronsregular';
+    src: url('Font/ailerons-typeface-webfont.woff2') format('woff2'),
+         url('Font/ailerons-typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
